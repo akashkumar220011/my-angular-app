@@ -9,6 +9,7 @@ export class PostComponent {
   title: string = "List of Posts";
   messagePost: string = 'My name is Akash kumar';
   
+  childMessage:string = 'From Child Component';
 
   @Input() fromParent:string ='';
 }
